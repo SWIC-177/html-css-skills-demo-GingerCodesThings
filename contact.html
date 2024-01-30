@@ -14,7 +14,53 @@
       <a class="navLink" href="contact.html">Contact</a>
     </nav>
 
-    <main></main>
+    <main>
+      <div class="container">
+        <div class="contentDiv" id="formDiv">
+          <h2>Get in Touch!</h2>
+          <hr />
+          <form id="contactForm">
+            <div class="leftColumn">
+              <span class="inputBox"
+                ><label for="firstName">First Name:</label>
+                <input
+                  type="text"
+                  for="firstName"
+                  id="firstName"
+                  required /></span
+              ><br />
+
+              <span class="inputBox"
+                ><label for="lastName">Last Name:</label>
+                <input
+                  type="text"
+                  for="lastName"
+                  id="lastName"
+                  required /></span
+              ><br />
+
+              <span class="inputBox"
+                ><label for="message">Message:</label>
+                <input type="text" for="message" id="message"
+              /></span>
+            </div>
+            <div class="rightColumn">
+              <span class="inputBox"
+                ><label for="email">Email:</label>
+                <input type="email" for="email" id="email" required /></span
+              ><br />
+
+              <span class="inputBox"
+                ><label for="phoneNumber">Phone Number:</label>
+                <input type="text" for="phoneNumber" id="phoneNumber" /></span
+              ><br />
+
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
 
     <footer>
       <p>&copy; Kailee Maurer 2024</p>

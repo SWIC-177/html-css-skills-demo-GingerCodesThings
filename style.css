@@ -84,6 +84,33 @@ h3 {
   padding: 0 5% 5%;
 }
 
+#formDiv {
+  background-color: #942950;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+#contactForm {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox {
+  margin: 1% 4% 2% 4%;
+}
+
 footer {
   position: absolute;
   bottom: 0;
