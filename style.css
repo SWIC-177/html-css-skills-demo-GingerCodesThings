@@ -68,7 +68,9 @@ h3 {
 
 #contactDiv {
   background-color: #d3d3d3;
+  padding: 1% 5% 35% 5%;
   box-shadow: 2px 5px rgba(0, 0, 0, 0.5);
+  
 }
 
 #imgDiv {
@@ -80,13 +82,15 @@ h3 {
   box-shadow: 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+
+
 .contentDiv {
   padding: 0 5% 5%;
 }
 
 #formDiv {
   background-color: #942950;
-  width: 90%;
+  width: 60%;
   margin: auto;
   margin-top: 2%;
 }
@@ -100,15 +104,20 @@ h3 {
 .leftColumn {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 .rightColumn {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 .inputBox {
-  margin: 1% 4% 2% 4%;
+  margin: 1% 3% 2% 3%;
+  
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
@@ -116,4 +125,6 @@ footer {
   bottom: 0;
   width: 100%;
   left: 0;
+  display: flex;
+  justify-content: center;
 }

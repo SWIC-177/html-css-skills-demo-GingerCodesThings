@@ -10,7 +10,7 @@
   <body>
     <nav>
       <a class="navLink" href="index.html">Home</a>
-      <header><h1>About Me</h1></header>
+      <header><h1>Contact Me</h1></header>
       <a class="navLink" href="contact.html">Contact</a>
     </nav>
 
@@ -18,45 +18,32 @@
       <div class="container">
         <div class="contentDiv" id="formDiv">
           <h2>Get in Touch!</h2>
-          <hr />
+          <hr>
           <form id="contactForm">
+
             <div class="leftColumn">
-              <span class="inputBox"
-                ><label for="firstName">First Name:</label>
-                <input
-                  type="text"
-                  for="firstName"
-                  id="firstName"
-                  required /></span
-              ><br />
+              <span class="inputBox"><label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" required></span> <br>
 
-              <span class="inputBox"
-                ><label for="lastName">Last Name:</label>
-                <input
-                  type="text"
-                  for="lastName"
-                  id="lastName"
-                  required /></span
-              ><br />
+              <span class="inputBox"><label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" required></span><br>
 
-              <span class="inputBox"
-                ><label for="message">Message:</label>
-                <input type="text" for="message" id="message"
-              /></span>
+              <span class="inputBox"><label for="message">Message:</label>
+                <textarea for="message" id="message" rows="5" cols="10" max-width="300px" required></textarea></span>
             </div>
+
             <div class="rightColumn">
-              <span class="inputBox"
-                ><label for="email">Email:</label>
-                <input type="email" for="email" id="email" required /></span
-              ><br />
+              <span class="inputBox"><label for="Email">Email:</label>
+                <input type="email" name="email" id="email" required></span> <br>
 
-              <span class="inputBox"
-                ><label for="phoneNumber">Phone Number:</label>
-                <input type="text" for="phoneNumber" id="phoneNumber" /></span
-              ><br />
+              <span class="inputBox"><label for="phone">Phone Number:</label>
+                <input type="text" name="phone" id="phone" required></span><br>
 
-              <input type="submit" value="Submit" />
+              <span class="inputBox">
+                <br>
+                <input type="submit" value="submit"></span>
             </div>
+
           </form>
         </div>
       </div>
