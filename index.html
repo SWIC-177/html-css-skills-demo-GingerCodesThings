@@ -3,30 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kailee Skill Demo Website</title>
   </head>
 
-  <body>
-    <nav>
-      <a href="index.html">Home</a>
-      <header><h1>About Me</h1></header>
-      <a href="contact.html">Contact</a>
+  <body  class="bg-yellow-50">
+    <nav class="w-100 flex flex-row justify-center text-center">
+      <a class="basis-1/4 text-xl" href="index.html">Home</a>
+      <header class="basis-1/2"><h1 class="text-2xl">About Me</h1></header>
+      <a class="basis-1/4 text-xl" href="contact.html">Contact</a>
     </nav>
 
-    <main>
-      <div>
-        <div>
+    <main >
+      <div class="flex">
+        <div class="flex-col p-10">
           <div>
-            <h3>Get to Know Me</h3>
-            <br>
-            <ul>
-              <li>Kailee</li>
-              <li>17</li>
-              <li>Aspiring Web Developer</li>
-              <li>Photographer</li>
-              <li>Painter</li>
-            </ul>
+            <h3>Get to Know Me</h3>   
             <br>
             <p>
               The first time I ever made a website, it was for my 7th grade
@@ -40,27 +33,31 @@
               heightened my excitement to learn web development.
             </p>
             <br>
-            <p>In my free time, I love to play video games and listen to music. I have a pretty decent collection of Lego's I've built that I love to display on my shelves with my albums, books, and video games. I like to paint and draw, primarily of people and animals, with watercolor and gouache. I also do a lot of photography, with scenery and people.</p>
+            <p>In my free time, I love to play video games and listen to music. I have a pretty decent collection of Lego's I've built that I love to display on my shelves with my albums, books, and video games. I like to paint and draw, primarily of people and animals, with watercolor and gouache. I also do a lot of photography, with scenery and people. Recently I've picked up crochet.</p>
           </div>
         </div>
 
-        <div>
+        <div class="flex-col p-10">
           <div>
             <div>
               <img src="images/kailee.jpg" alt="an image of me with flowers" />
+              <br>
+            <ul>
+              <li>Kailee</li>
+              <li>17</li>
+              <li>Aspiring Web Developer</li>
+              <li>Photographer</li>
+              <li>Painter</li>
+            </ul>
             </div>
-            <div>
-              
-              <h3>Looking to <br /><a href="contact.html">Get In Touch?</a></h3>
-              <div><p>[xxx]-xxx-xxxx</p><hr></div>
-            </div>
+            
           </div>
         </div>
       </div>
     </main>
 
     <footer>
-      <p>&copy; Kailee Maurer 2024</p>
+      <p class="text-center">&copy; Kailee Maurer 2024</p>
     </footer>
   </body>
 </html>
