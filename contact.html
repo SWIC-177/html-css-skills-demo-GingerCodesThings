@@ -7,41 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Get In Touch!</title>
   </head>
-  <body>
-    <nav>
-      <a class="navLink" href="index.html">Home</a>
-      <header><h1>Contact Me</h1></header>
-      <a class="navLink" href="contact.html">Contact</a>
+  <body  class="bg-yellow-50 flex flex-col h-screen justify-between">
+    <nav class="w-100 flex flex-row justify-center text-center p-6 bg-green-800 text-green-50">
+      <a class="basis-1/4 text-xl hover:italic" href="index.html">Home</a>
+      <header class="basis-1/2"><h1 class="text-2xl">Contact Me</h1></header>
+      <a class="basis-1/4 text-xl hover:italic" href="contact.html">Contact</a>
     </nav>
 
     <main>
-      <div class="container">
-        <div class="contentDiv" id="formDiv">
-          <span id="contactHead"><h2>Get in Touch! </h2><img src="images/plane.png" alt="a paper airplane" id="planelogo"></span>
+      <div>
+        <div class="bg-blue-500 max-w-xl m-auto">
+          <span ><h2>Get in Touch! </h2><img src="images/plane.png" alt="a paper airplane" id="planelogo" class="max-w-xs"></span>
+          
           <form id="contactForm">
 
-            <div class="leftColumn">
-              <span class="inputBox"><label for="firstName">First Name*:</label>
-                <input type="text" name="firstName" id="firstName" required></span> <br>
+            <div>
+              <label for="firstName">First Name*:</label>
+                <input type="text" name="firstName" id="firstName" required><br>
 
-              <span class="inputBox"><label for="lastName">Last Name*:</label>
-                <input type="text" name="lastName" id="lastName" required></span><br>
+              <label for="lastName">Last Name*:</label>
+                <input type="text" name="lastName" id="lastName" required><br>
 
-              <span class="inputBox"><label for="message">Message*:</label>
-                <textarea for="message" id="message" rows="5" cols="10" max-width="300px" required></textarea></span>
+              <label for="message">Message*:</label>
+                <textarea for="message" id="message" rows="5" cols="10" required></textarea>
             </div>
 
-            <div class="rightColumn">
-              <span class="inputBox"><label for="Email">Email*:</label>
-                <input type="email" name="email" id="email" required></span> <br>
+            <div>
+              <label for="Email">Email*:</label>
+                <input type="email" name="email" id="email" required><br>
 
-              <span class="inputBox"><label for="phone">Phone Number:</label>
-                <input type="text" name="phone" id="phone" required></span><br>
+              <label for="phone">Phone Number:</label>
+                <input type="text" name="phone" id="phone" required><br>
 
-              <span class="inputBox">
-                <br>
-                <br>
-                <input type="submit" value="Submit"></span>
+                <input type="submit" value="Submit">
             </div>
 
           </form>
@@ -49,8 +47,8 @@
       </div>
     </main>
 
-    <footer>
-      <p>&copy; Kailee Maurer 2024</p>
+    <footer class="bg-pink-700  text-pink-50 mt-5 bottom-0 p-6">
+      <p class="text-center">&copy; Kailee Maurer 2024</p>
     </footer>
   </body>
 </html>
