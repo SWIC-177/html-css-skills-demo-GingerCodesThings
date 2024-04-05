@@ -10,37 +10,37 @@
   <body  class="bg-yellow-50 flex flex-col h-screen justify-between">
     <nav class="w-100 flex flex-row justify-center text-center p-6 bg-green-800 text-green-50">
       <a class="basis-1/4 text-xl hover:italic" href="index.html">Home</a>
-      <header class="basis-1/2"><h1 class="text-2xl">Contact Me</h1></header>
+      <header class="basis-1/2"><h1 class="text-3xl">Contact Me</h1></header>
       <a class="basis-1/4 text-xl hover:italic" href="contact.html">Contact</a>
     </nav>
 
     <main>
       <div>
-        <div class="bg-blue-500 max-w-xl m-auto pb-3 ">
-          <div class="flex flex-row justify-center items-center pt-4"><h2 class="text-3xl align-middle">Get in Touch! </h2><img src="images/plane.png" alt="a paper airplane" id="planelogo" class="h-auto w-20"></div>
+        <div class="bg-blue-500 max-w-xl m-auto mt-5 pb-3">
+          <div class="flex flex-row justify-center items-center "><h2 class="text-3xl align-middle">Get in Touch! </h2><img src="images/plane.png" alt="a paper airplane" id="planelogo" class="h-auto w-20"></div>
           
-          <form class="flex flex-col w-auto text-center m-10 bg-blue-300" id="contactForm">
+          <form class="flex flex-col w-auto text-center m-10 rounded-xl bg-blue-300" id="contactForm">
 
-            <div class="m-10">
+            <div class="m-10 ">
               <label for="firstName">First Name*:</label><br>
-                <input type="text" name="firstName" id="firstName" class="w-full" required><br>
+                <input type="text" name="firstName" id="firstName" class="w-full rounded-lg" required><br>
 
               <label for="lastName">Last Name*:</label><br>
-                <input type="text" name="lastName" id="lastName" class="w-full" required><br>
+                <input type="text" name="lastName" id="lastName" class="w-full rounded-lg" required><br>
             
               <label for="Email">Email*:</label><br>
-                <input type="email" name="email" id="email" class="w-full" required><br>
+                <input type="email" name="email" id="email" class="w-full rounded-lg" required><br>
 
               <label for="phone">Phone Number:</label><br>
-                <input type="text" name="phone" id="phone" class="w-full" required><br>
+                <input type="text" name="phone" id="phone" class="w-full rounded-lg" required><br>
                 
                 <div class="m-4 justify-center">
             <label for="message">Message*:</label><br>
-                <textarea for="message" id="message" rows="5" cols="10" class="w-full" required></textarea>
+                <textarea for="message" id="message" rows="5" cols="10" class="w-full rounded-lg" required></textarea>
                 
                 
               </div>
-              <input class="w-full" type="submit" value="Submit">
+              <div class="group w-full bg-slate-100 rounded-full hover:bg-slate-200 italic "><input type="submit" value="Submit"></div>
             </div>
 
             
